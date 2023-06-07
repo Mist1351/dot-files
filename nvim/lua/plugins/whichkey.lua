@@ -22,8 +22,15 @@ wk.register({
 		d = "Diagnostic",
 		D = "Hover diagnostic",
 		f = "Format",
-		r = "Rename",
+		r = "References",
+		R = "Rename",
 		a = "Action",
 		s = "Symbol",
+		w = {
+			name = "Workspace",
+			a = "Add",
+			r = "Remove",
+			l = "List",
+		},
 	},
 }, { prefix = "<leader>" })
