@@ -31,6 +31,7 @@ require("lazy").setup({
 	{ "akinsho/toggleterm.nvim", version = "*", config = true },
 
 	{ "williamboman/mason.nvim", build = ":MasonUpdate" },
+	{ "williamboman/mason-lspconfig.nvim" },
 	{ "nvim-treesitter/nvim-treesitter" },
 	{ "neovim/nvim-lspconfig" },
 	{ "hrsh7th/cmp-nvim-lsp" },
