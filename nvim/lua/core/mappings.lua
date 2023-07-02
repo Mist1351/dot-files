@@ -1,8 +1,8 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set("n", "<leader>e", ":Neotree float focus<CR>")
-vim.keymap.set("n", "<leader>p", ":Neotree toggle show right focus<CR>")
+vim.keymap.set("n", "<leader>e", ":Neotree float focus reveal<CR>")
+vim.keymap.set("n", "<leader>p", ":Neotree toggle show right focus reveal<CR>")
 vim.keymap.set("n", "<leader>o", ":Neotree float git_status<CR>")
 
 -- Navigation
@@ -19,6 +19,8 @@ vim.keymap.set("n", "\\", ":split<CR>")
 -- Other
 vim.keymap.set("n", "<leader>w", ":w<CR>")
 vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
+vim.keymap.set("n", "<leader>bh", ":BufferLineMovePrev<CR>")
+vim.keymap.set("n", "<leader>bl", ":BufferLineMoveNext<CR>")
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 
 -- Tabs
