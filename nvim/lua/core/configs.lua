@@ -25,6 +25,8 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- Clipboard
+-- Install wl-clipboard for fast clipboard:
+--   sudo apt install wl-clipboard
 vim.opt.clipboard = "unnamedplus"
 
 -- Shorter messages
