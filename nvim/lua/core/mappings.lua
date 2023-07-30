@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
 
+vim.keymap.set({ "n", "i", "v" }, "<F1>", "<Nop>")
+
 -- NeoTree
 vim.keymap.set("n", "<leader>e", ":Neotree float focus reveal<CR>")
 vim.keymap.set("n", "<leader>p", ":Neotree toggle show right focus reveal<CR>")
